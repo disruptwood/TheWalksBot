@@ -738,7 +738,7 @@ async def handle_admin_reply(update: Update, context: ContextTypes.DEFAULT_TYPE)
 # Replace the main function with this fixed version
 def main():
     # Create and run the bot
-    app = ApplicationBuilder().token("7542424591:AAFfzCzuLeVjGIq1a0EKzleyWmdHZltx_60").build()
+    app = ApplicationBuilder().token("BotToken").build()
 
     # Add handlers
     app.add_handler(CommandHandler("start", start))
